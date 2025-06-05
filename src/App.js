@@ -5,12 +5,12 @@ import './App.css';
 function App() {
   const [expanded, setExpanded] = useState(false);
   const project = {
-    authors: ["Corey Campbell", "Sydney Sonday", "Souad Yakubu"],
+    authors: ["Souad Yakubu"],
     advisor: "Harry Plantinga",
     date: "September 19, 2024",
     department: "Department of Computer Science, Calvin University",
-    background: `The project serves as a reader's resource for Christian literature, addressing challenges with archaic language and complex theological concepts. CCEL.org hosts many classic Christian texts that readers often find difficult to engage with due to outdated terminology.`,
-    solution: `The AI-based tool leverages language models to enhance reading comprehension by providing real-time explanations, modern language translations, and interactive learning features. Our solution helps bridge the gap between historical Christian texts and modern readers.`,
+    background: `The project serves as a reader's resource for literature, addressing challenges with archaic language and complex theological concepts. CCEL.org hosts many classic texts that readers often find difficult to engage with due to outdated terminology.`,
+    solution: `The AI-based tool leverages language models to enhance reading comprehension by providing real-time explanations, modern language translations, and interactive learning features. Our solution helps bridge the gap between historical texts and modern readers.`,
     research: `This hybrid research and development project combines AI technology with reading comprehension techniques. Through multiple user testing iterations, we refined our approach to ensure the tool preserves the original meaning while enhancing accessibility.`,
     links: {
       website: "https://reader-tools.wray.dart.ccel.org",
@@ -91,7 +91,7 @@ function App() {
                       <ul className="space-y-2 text-gray-300">
                         <li className="flex items-start gap-2">
                           <span className="text-teal-300">•</span>
-                          <span>Text modernization for classic Christian texts</span>
+                          <span>Text modernization for classic archaic texts</span>
                         </li>
                         <li className="flex items-start gap-2">
                           <span className="text-teal-300">•</span>
