@@ -14,7 +14,7 @@ The app is designed to provide a sleek, accessible overview of the Readers Tool 
 * React – for building the UI
 * Tailwind CSS – utility-first styling framework
 * Lucide React – icon set for buttons and visuals
-* Firebase & Vercel – for potential deployment
+* Firebase & Vercel – for deployment
 * CSS modules – for additional styling tweaks
 
 
